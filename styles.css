@@ -6,22 +6,38 @@ body{
     margin: 0;
     padding: 0;
     background: gray;
+    background-image: url('backg.jpeg');
+    background-repeat: repeat;
 }
 
-.bday{
+.bday1{
     margin-top: 80px;
     text-align: center;
     cursor: pointer;
     font-size: 150px;
     font-family: roboto;
-    background: linear-gradient(180deg, #f3b2e0 0%, #85eaee 110%);
+    background: linear-gradient(180deg, #f776d0 0%, #64edf1 110%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: bday;
     
 }
 
-.name{
+.bday2{
+  padding-right: 100px;
+  margin-left: 318x;
+  margin-top: 80px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 150px;
+  font-family: roboto;
+  background: linear-gradient(180deg, #f776d0 0%, #64edf1 110%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: bday;
+}
+
+.bday3{
     padding-right: 100px;
     margin-left: 318x;
     margin-top: 80px;
@@ -29,7 +45,7 @@ body{
     cursor: pointer;
     font-size: 150px;
     font-family: roboto;
-    background: linear-gradient(180deg, #f3b2e0 0%, #85eaee 110%);
+    background: linear-gradient(180deg, #f776d0 0%, #64edf1  110%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: bday;
