@@ -8,7 +8,7 @@ body{
     background: gray;
 }
 
-.bday{
+.happy{
     margin-top: 80px;
     text-align: center;
     cursor: pointer;
@@ -21,7 +21,20 @@ body{
     
 }
 
-.name{
+.bday1{
+    margin-top: 80px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 150px;
+    font-family: roboto;
+    background: linear-gradient(180deg, #f3b2e0 0%, #85eaee 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: bday;
+    
+}
+
+.bday{
     padding-right: 100px;
     margin-left: 318x;
     margin-top: 80px;
