@@ -10,7 +10,7 @@ body{
     background-repeat: repeat;
 }
 
-.bday1{
+.happy{
     margin-top: 80px;
     text-align: center;
     cursor: pointer;
@@ -37,7 +37,7 @@ body{
   font-family: bday;
 }
 
-.bday3{
+.bday{
     padding-right: 100px;
     margin-left: 318x;
     margin-top: 80px;
@@ -49,6 +49,18 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: bday;
+}
+
+.bday1{
+    margin-top: 80px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 150px;
+    font-family: roboto;
+    background: linear-gradient(180deg, #f3b2e0 0%, #85eaee 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: bday;   
 }
 
 .slideshow-container {
@@ -71,7 +83,7 @@ body{
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
+  transition: 1s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
